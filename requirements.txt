@@ -1,0 +1,4 @@
+Flask==2.0.2
+pandas==1.3.4
+pipreqs==0.4.11
+plotly_express==0.4.0

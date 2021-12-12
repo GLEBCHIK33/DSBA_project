@@ -1,0 +1,65 @@
+.vertical-menu {
+  float:left;
+  display: flex;
+  flex-direction: column;
+  width:15%;
+  background: rgb(193, 177, 238); 
+  color: #fff; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+.vertical-menu a {
+  background-color: rgb(193, 177, 238); /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a:active {
+  background-color: #229b40; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu a:focus {
+  color: green;
+}
+
+.vertical-menu a:target{
+  color: green;
+}
+
+.seldiv {
+  background: rgb(193, 177, 238);
+  height: 120px;
+  width:200px;
+  border-radius: 15px;
+  margin: 0px auto auto 30px;
+  float: left;
+  font-size:22px;
+  color:black;
+  text-align: center;  
+}
+
+
+.table_res {
+  display:  flex;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: 330px;
+  padding-top: 20px
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
